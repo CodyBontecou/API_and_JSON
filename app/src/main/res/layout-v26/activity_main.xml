@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amber_600"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey_400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/name_header" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_below="@id/linear1"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue_200"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonLeft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:text="@string/button"
+            android:textSize="12sp"
+            android:layout_gravity="left"/>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="50dp">
+
+            <TextView
+                android:id="@+id/textBox"
+                android:layout_width="225dp"
+                android:layout_height="200dp"
+                android:background="@color/red_800"
+                android:gravity="center"
+                android:text="HEL0O0O0O0O0O" />
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">API_and_JSON</string>
+    <string name="name_header">Cody Bontecou</string>
+    <string name="button">Button</string>
+    <string name="favorite_message">This is my favorite message</string>
+
+</resources>
